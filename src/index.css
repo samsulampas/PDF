@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+.prose {
+  @apply prose-gray dark:prose-invert
+    prose-headings:text-gray-900 dark:prose-headings:text-gray-100
+    prose-p:text-gray-600 dark:prose-p:text-gray-300
+    prose-a:text-indigo-600 dark:prose-a:text-indigo-400
+    prose-strong:text-gray-900 dark:prose-strong:text-gray-100
+    prose-ul:text-gray-600 dark:prose-ul:text-gray-300
+    prose-ol:text-gray-600 dark:prose-ol:text-gray-300
+    prose-li:text-gray-600 dark:prose-li:text-gray-300;
+}
